@@ -1,0 +1,22 @@
+{
+  "name": "node_weather",
+  "version": "1.0.0",
+  "main": "weather.js",
+  "license": "MIT",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon weather.js \"-s\" \"irkutsk\""
+  },
+  "devDependencies": {
+    "chalk": "^5.2.0",
+    "esm": "^3.2.25",
+    "nodemon": "2.0.20"
+  },
+  "dependencies": {
+    "axios": "1.3.3",
+    "dotenv": "^16.0.3"
+  }
+}
